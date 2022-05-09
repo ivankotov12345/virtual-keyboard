@@ -42,10 +42,10 @@ body {
     height: 60px;
     border-radius: 5px;
     border: 1px solid #4cf5f2;
-    box-shadow: 0 0 5px #4cf5f2, 0 0 10px #4cf5f2;
     font-family: 'Roboto';
     font-size: 1rem;
     text-shadow: -2px 0 0 #f54c4f;
+    transition: .3s ease-in-out;
 }
 
 .btn-key:focus {
@@ -54,6 +54,7 @@ body {
 
 .active {
     background-color: #4cf5f2;
+    box-shadow: 0 0 5px #4cf5f2, 0 0 10px #4cf5f2;
 }
 
 .text {
